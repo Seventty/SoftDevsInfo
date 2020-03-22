@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #00ccff;
+	background: #fff;
 }
 
 header {
@@ -16,7 +16,7 @@ header nav {
 	width: 90%;
 	max-width: 1000px;
 	margin: 20px auto;
-	background: #595959;
+	background: #00ccff;
 }
 
 header nav ul{
@@ -65,7 +65,7 @@ header nav ul li a{
 
 }
 .telegram:hover, .telegram:focus, .telegram:active{
-	background: #0099cc;
+	background: #4ddbff;
 	-webkit-animation-name: hvr-buzz-out;
   animation-name: hvr-buzz-out;
   -webkit-animation-duration: 0.75s;
@@ -240,5 +240,18 @@ section {
 		display: block;
 		width: 100%;
 		background: #ccc;
+
 	}
+  .menu_bar .button_menu{
+      display: block;
+      padding: 20px;
+      background: #007399;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-style: 25px;
+      -webkit-box-sizing:border-box;
+      -moz-box-sizing:border-box;
+      box-sizing:border-box;
+    }
 }

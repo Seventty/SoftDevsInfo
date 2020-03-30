@@ -85,6 +85,18 @@ header nav ul li a{
   animation-iteration-count: 1;
 }
 
+.staff:hover, .staff:focus, .staff:active{
+  background: #D4AF37;
+  -webkit-animation-name: hvr-buzz-out;
+  animation-name: hvr-buzz-out;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 
 
 .menu_bar {

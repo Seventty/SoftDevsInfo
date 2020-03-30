@@ -17,10 +17,13 @@ header nav {
 	max-width: 1000px;
 	margin: 20px auto;
 	background: #00ccff;
+  align-items: center;
+  justify-content: center;
 }
 
 header nav ul{
 	overflow: hidden;
+
 }
 
 header nav ul li{
@@ -37,11 +40,6 @@ header nav ul li a{
 
 .info:hover{
 	background: #007399;
-	display: inline-block;
-	vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-animation-name: hvr-buzz-out;
   animation-name: hvr-buzz-out;
   -webkit-animation-duration: 0.75s;

@@ -1,5 +1,4 @@
-var id;
-function displayContent(idElement){
+var id = 1;
+function displayTab(){
 	
-
 }

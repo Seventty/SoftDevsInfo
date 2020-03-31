@@ -143,6 +143,11 @@ section {
 		border-bottom: 1px solid rgba(255,255,255, .3);
 	}
 
+@media screen and (max-width: 800px){
+  body{
+    background-image: url(https://i.imgur.com/5JGII7N.png);
+  }
+}
 
 	.menu_bar {
 		display: block;

@@ -25,7 +25,7 @@
 	<section class="caja">
 		<p>⚠ Anuncio de precaución & emergencia nivel III. ⚠<br><br>
 Nuestro equipo de software developers se ha dado la pequeña tarea de hacer un pequeño documento con información a cerca del covid-19.
- <br><br><button id="primer_boton_info" class="boton" type="button" autofocus="autofocus">Mostrar/Ocultar</button>
+ <br><br><button id="primer_boton_info" class="boton" type="button" autofocus="autofocus" onclick="mostrarOcultar1()">Mostrar/Ocultar</button>
  <div id="primer_info_div" style="display: none;">
  	<br>
 Se han actualizado las medidas de protección contra el coronavirus:<br><br>
@@ -45,26 +45,28 @@ El coronavirus es más mortal que la influenza; y se pretende que siendo imposib
 </div>
 	</section>
 	<section class="caja">
-		💠 Más info 💠 <br>
+		💠 Más info 💠 <br><br>
 
 		Bien sabemos que una de las formas más directas del virus para entrar en su sistema, es por medio de aquellas gotitas microscopicas que lanzamos al estornudar o toser. Aquí le dejamos una recopilación de 3 vídeos educando de como puede hacer una mascara *casera* para intentar evitar contagio por dicha acción.
- <br><br><br>
+ <br><br><button id="segundo_boton_info" class="boton" type="button" autofocus="autofocus" onclick="mostrarOcultar2()">Mostrar/Ocultar</button><br><br>
+ 		<div id="segundo_info_div" style="display: none;">
 		<a class="link" href="https://www.youtube.com/watch?v=vTo05PTAFfk"> Cómo hacer mascarilla, Tapabocas, Cubrebocas, Barbijos Por: <font face="Georgia" color="#ff9933"> Sanakasi Blogs</font> Duración: <font face="Georgia" color="#00cc00"> 9:14</font></a><br><br>
 
 		<a class="link" href="https://www.youtube.com/watch?v=8tpdPqATff4"> Como hacer una mascara ANTI "GAS" CASERA 100% FUNCIONAL◀︎▶︎ MEJORADA Por: <font face="Georgia" color="#ff9933"> Proyectando Nuevas Ideas </font> Duración: <font face="Georgia" color="#00cc00"> 14:24</font></a><br><br>
 
 		<a class="link" href="https://www.youtube.com/watch?v=vTo05PTAFfk">¿Cómo se hace un CUBREBOCAS CASERO? ¡Sin costuras! | Rápido, Económico y Efectivo Por: <font face="Georgia" color="#ff9933"> Dr. Federico Baena Q </font> Duración: <font face="Georgia" color="#00cc00"> 9:03</font></a><br><br>
-
+		</div>
 		</section>
 		<section class="caja">
 			🔱Mapas en vivo🔱<br><br>
 
-			& por último. Unos mapas que muestra la información actual del número de contagiados/muertes/recuperados en tiempo real.<br><br>
+			& por último. Unos mapas que muestra la información actual del número de contagiados/muertes/recuperados en tiempo real.<br><br> <button id="tercer_boton_info" class="boton" type="button" autofocus="autofocus" onclick="mostrarOcultar3()">Mostrar/Ocultar</button><br><br>
  
+ 		<div id="tercero_info_div" style="display: none;">
 		<a class="link" href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR23wyTip-hRIDIVe0r4nNrqg0S_uFZRm740X7Zxc2-dtCtHoAwAMPwroFs#/bda7594740fd40299423467b48e9ecf6">Mapa de la universidad <font color="#D4AF37" face="Georgia">JHONS HOPKING</font></a><br><br>
 		 
 		 <a class="link" href="https://www.google.com/maps/d/u/0/viewer?mid=1S0vCi3BA-7DOCS13MomK7KebkPsvYl8C&ll=47.72151895248619%2C-109.33096149431998&z=5">Mapa proporcionado por <font color="#D4AF37" face="Georgia">Google Maps</font></a><br><br>
-
+		</div>
 		</section>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="menu.js"></script>

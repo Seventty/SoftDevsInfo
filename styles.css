@@ -134,6 +134,9 @@ border-radius: 35px 0px 35px 0px;
 border: 1px solid #e6e6e6;
 }
 
+#primer_info_div{
+  text-align: left;
+}
 
 .menu_bar {
 	display: none;
